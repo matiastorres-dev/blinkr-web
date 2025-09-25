@@ -8,7 +8,10 @@ import Header from './components/Header';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2',
+      main: '#F239FC',
+    },
+    secondary: {
+      main: '#1D88FF',
     },
   },
 });

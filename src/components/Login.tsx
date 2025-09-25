@@ -9,6 +9,7 @@ import {
   Box
 } from '@mui/material';
 import { authAPI } from '../services/api';
+import logo from '../assets/logo_blinkr.png';
 
 interface LoginProps {
   onLoginSuccess: () => void;
@@ -51,6 +52,18 @@ const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
     <Container maxWidth="sm">
       <Box sx={{ mt: 8, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <Paper elevation={3} sx={{ p: 4, width: '100%' }}>
+          <Box sx={{ display: 'flex', justifyContent: 'center', mb: 3 }}>
+            <img
+              src={logo}
+              alt="Blinkr Logo"
+              style={{
+                maxWidth: '200px',
+                height: 'auto',
+                objectFit: 'contain'
+              }}
+            />
+          </Box>
+
           <Typography variant="h4" component="h1" gutterBottom align="center">
             Login
           </Typography>

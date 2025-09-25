@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({ onLogout }) => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" color="secondary">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
         Blinkr ASN Upload
