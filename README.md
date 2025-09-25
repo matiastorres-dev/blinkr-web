@@ -1,6 +1,33 @@
-# Getting Started with Create React App
+# Blinker Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React TypeScript application for file upload management with authentication.
+
+## Features
+
+- 🔐 Login authentication with API integration
+- 📁 File upload support for CSV, XLS, and XLSX files
+- 🏪 Store selection from API
+- 📊 Upload progress tracking
+- 🚪 Logout functionality
+
+## API Endpoints
+
+- **Login**: `POST https://blinker-api.onrender.com/auth/login`
+- **Stores**: `GET https://blinker-api.onrender.com/stores`
+
+## Usage
+
+1. **Login**: Enter your email and password to authenticate
+2. **Select Store**: Choose a store from the dropdown
+3. **Upload Files**: Select CSV, XLS, or XLSX files to upload
+4. **Monitor Progress**: Track upload progress for each file
+5. **Logout**: Click the logout button in the header to sign out
+
+## Tech Stack
+
+- React 18 with TypeScript
+- Material-UI (MUI)
+- Axios for API calls
 
 ## Available Scripts
 
