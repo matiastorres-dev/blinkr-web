@@ -151,7 +151,7 @@ const FileUploader: React.FC = () => {
   return (
     <Box sx={{ p: 3, maxWidth: 800, mx: 'auto' }}>
       <Typography variant="h4" gutterBottom>
-        File Upload
+      Select a store and upload your ASN
       </Typography>
 
       <Stack

@@ -22,7 +22,7 @@ const Header: React.FC<HeaderProps> = ({ onLogout }) => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Blinkr Web
+        Blinkr ASN Upload
         </Typography>
         <Button
           color="inherit"
